@@ -18,6 +18,7 @@ public class Assorted {
      */
     public static int findSum(List<?> list) {
         int sum = 0;
+
         for (Object element : list) {
             if (element instanceof Integer) {
                 sum += (int) element;
